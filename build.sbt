@@ -36,7 +36,9 @@ scalaVersion := "2.11.7"
 libraryDependencies ++= Seq(
   jdbc,
   cache,
-  ws
+  ws,
+  "org.scalatest" %% "scalatest" % "2.2.6" % "test",
+  "org.scalatestplus" %% "play" % "1.4.0" % "test"
 )
 resolvers += "scalaz-bintray" at "http://dl.bintray.com/scalaz/releases"
 routesGenerator := InjectedRoutesGenerator
