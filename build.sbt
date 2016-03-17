@@ -37,6 +37,7 @@ libraryDependencies ++= Seq(
   jdbc,
   cache,
   ws,
+  //"org.scalactic" %% "scalactic" % "2.2.6", // TODO: superSafe と併せて検討: http://www.scalatest.org/install
   "org.scalatest" %% "scalatest" % "2.2.6" % "test",
   "org.scalatestplus" %% "play" % "1.4.0" % "test"
 )
