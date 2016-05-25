@@ -13,7 +13,10 @@ object API {
 
   val apiDependencies = Seq(
     jdbc,
-    cache
+    cache,
+    ws,
+    "org.scalatest" %% "scalatest" % "2.2.6" % "test",
+    "org.scalatestplus" %% "play" % "1.4.0" % "test"
   )
 
   lazy val project = Project(
